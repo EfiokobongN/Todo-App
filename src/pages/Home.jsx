@@ -1,10 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Container from '../components/container/Container';
 
 function Home() {
   return (
     <div>
-    
-      Welcome to Home Page
+
+      <Container>
+        
+      </Container>
     </div>
   )
 }

@@ -1,7 +1,19 @@
-#root {
+/*#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}*/
+html{
+  height: 100%;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px red dotted;
+  height: 100%;
+  background-color: #f1f1be;
+
 }
 
