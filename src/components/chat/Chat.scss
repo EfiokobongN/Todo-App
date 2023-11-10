@@ -1,0 +1,12 @@
+.chat{
+    &_header{
+        font-size: 20px;
+        font-weight: bold;
+        color: red;
+    }
+    &_body{
+        font-size: 17px;
+        font-weight: bold;
+        color: blue;
+    }
+}
