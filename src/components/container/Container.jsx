@@ -1,10 +1,10 @@
 import React from 'react';
 import './Container.scss';
 
-function Container() {
+function Container({ children }) {
   return (
     <div className='container'>
-      container
+      {children}
     </div>
   )
 }
