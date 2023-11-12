@@ -1,0 +1,22 @@
+.listTodo{
+    margin-top: 30px;
+    &_row{
+        display: flex;
+        margin-bottom: 20px;
+    }
+    &_item{
+        flex-grow: 1;
+        background-color: #f3f1f5;
+        padding: 15px;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    &_delete{
+        background-color: red; border: none; color: white; padding: 15px;
+        cursor: pointer; font-size: 20px;
+        display: none;
+    }
+    &_row:hover &_delete{
+        display: block;
+    }
+}
