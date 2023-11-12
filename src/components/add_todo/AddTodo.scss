@@ -1,0 +1,18 @@
+.addTodo{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    &_input{
+        padding: 15px;
+        width: 80%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 20px;
+        outline: none;
+    }
+    &_button{
+        width: 20%; border-radius: 5px; border: none;
+        cursor: pointer;
+        background-color: #67409b; color: white; font-size: 40px;
+    }
+}
