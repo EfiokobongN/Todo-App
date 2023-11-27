@@ -7,12 +7,14 @@ import Example2 from './components/props-learning/Example2';
 import Example3 from './components/spread-operator/Example3';
 
 import Example5 from './components/component/Example5';
+import Example6 from './components/component/Example6';
 
 function App() {
   return (
     <>
-    <Example5 />
+    <Home />
     {/*<Example1 />
+    <Example5 />
     <Example4 />
     <Example2 />
      <Example3 />
