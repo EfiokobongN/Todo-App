@@ -8,11 +8,12 @@ import Example3 from './components/spread-operator/Example3';
 
 import Example5 from './components/component/Example5';
 import Example6 from './components/component/Example6';
+import Recipe from './pages/Recipe';
 
 function App() {
   return (
     <>
-    <Home />
+    <Recipe />
     {/*<Example1 />
     <Example5 />
     <Example4 />
